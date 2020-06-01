@@ -48,6 +48,7 @@
               }
           },
           methods:{
+
               handleLogin(){
                   this.$refs.AccountFrom.validate((valid)=>{
 
@@ -94,4 +95,4 @@
          width: 350px;
          margin-left: 35%;
      }
-  </style>
+     </style>

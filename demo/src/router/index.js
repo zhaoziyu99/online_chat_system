@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 //使用懒加载的方式来引入,只有路由被访问的时候才加载
-import home from '@/components/home'
+import home from '@/components/Home'
 const loginpage = resolve => require(['@/components/Login'],resolve)
 
 Vue.use(Router)
