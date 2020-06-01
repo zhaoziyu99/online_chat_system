@@ -4,7 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+//引入elemen-u控件
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 Vue.config.productionTip = false
+//使用use命令后才起作用
+Vue.use(ElementUI)
 
 /* eslint-disable no-new */
 new Vue({
